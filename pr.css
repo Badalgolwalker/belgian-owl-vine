@@ -1,0 +1,59 @@
+*{
+margin: 0;
+ padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#main{
+    
+   position: relative;
+   overflow: hidden;
+}
+#page7
+{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+
+.parallax-container {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Parallax container ki height customize kare */
+    overflow: hidden;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://belgianwhisky.com/img/containers/assets/SCENE_08_REVOLVING_HR_03_0045-copie.png/24d8f6ec1fc9bd1536e31edc27175425.png); /* Background image ka path set kare */
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Foreground content ki styling */
+}
+#page8
+{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+#page9
+{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}

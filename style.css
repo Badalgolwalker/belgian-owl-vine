@@ -1,0 +1,702 @@
+*{
+margin: 0;
+ padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+
+}
+.loder{
+    height: 100vh;
+    width: 100vw;
+    background-color: #303030;
+    position: absolute;
+    z-index: 9999999;
+  
+
+}
+.loder .m{
+    height: 55%;
+    width: 26%;
+    background-color: rgba(38, 38, 38, 0);
+    margin-left: 39.1%;
+    position: absolute;
+    top: 26%;
+    /* z-index: 999999999; */
+
+}
+.loder .m img{
+    height: 100%;
+    /* width: 100%; */
+
+
+}
+.loder h1{
+    font-size: 31vw;
+    color: #000000;
+    margin-left: 26.5%;
+    margin-top: 4.7%;
+    font-family: sans-serif;
+}
+#m2{
+    height: 100vh;
+    width: 100vw;
+   position: absolute;
+    z-index: 999;
+   
+   top: 0%;
+}
+#m2 #one{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+}
+#m2 #two{
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+#m2 #three{
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+
+    height: 100%;
+    width: 100%;
+}
+#m2 #for{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    opacity: 0;
+
+    width: 100%;
+}
+#m2 #five{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    opacity: 0;
+
+    width: 100%;
+}
+
+#m2 #six{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+}
+#m2 #seven{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+  
+    width: 100%;
+    opacity: 0;
+
+}
+#m2 .ver{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.779),rgba(0, 0, 0, 0.523),transparent,rgba(0, 0, 0, 0.902));
+    backdrop-filter: blur(3px);
+}
+#m2 .ver1{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    opacity: 0;
+    background-color: #05302bf3;
+       backdrop-filter: blur(3px);
+}
+
+
+#main
+{
+   
+    z-index: 9999;
+    position: relative;
+    overflow: hidden;
+   
+    
+ 
+}
+
+#page{
+    position: relative;
+    height: 110vh;
+    width: 100vw;  
+    /* background-color: red; */
+}
+canvas{
+    position: relative;
+    z-index: 99;
+    max-width: 100vw;
+    max-height: 100vh;
+    
+
+ 
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+   
+    padding: 0 0.6%;
+    align-items: center;
+justify-content: space-between;
+}
+#nav-part1{
+    display: flex;
+    margin-left: 1%;
+    width: 30%;
+}
+#nav-part1 h4{
+margin-left: 4%;
+font-size: 16px;
+color: #fff;
+font-weight: 400;
+font-family: sans-serif;
+
+}
+#nav-part1 h4:hover{
+    color: rgb(159, 219, 40);
+}
+#nav-part2{
+    width: 12%;
+margin-right: 12%;
+text-align: center;
+
+}
+#nav-part2 h2{
+  font-size: 20px;
+ color: #fff;
+ line-height: 20px;
+ margin-top: 5%;
+  
+}
+#nav-part2 h2 span{
+    font-size: 11px;
+ 
+}
+#nav-part3{
+    width: 15%;
+ display: flex;
+ align-items: center;
+
+}
+#nav-part3 button{
+    padding: 10px 20px;
+    border: 1   px solid yellowgreen;
+    background-color: transparent;
+    color: yellowgreen;
+    border-radius: 17px;
+
+}
+#nav-part3 i{
+    color: #fff;
+    margin-left: 9%;
+    font-size: 29px;
+    
+}
+#nav-part3 button:hover{
+    color: #fff;
+    border-color: #fff;
+}
+#page h1{
+    width: 40%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+
+}
+#page h1 span{
+    color: yellowgreen;
+    font-style: italic;
+}
+
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    /* background-color: rgba(255, 0, 0, 0.281); */
+    /* overflow: hidden; */
+  
+}
+#page1 .div{
+    height: 44%;
+    width: 35%;
+    /* background-color: #fff; */
+    position: relative;
+    top: 50%;
+    left: 57%;
+    opacity: 6;
+}
+#page1 .div img{
+    height: 160px;
+    width: 160px;
+    margin-left: 34%;
+}
+#page1 .div h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 5%;
+    color: #fff;
+}
+#page1 .div h1 span{
+    color: yellowgreen;
+    font-style: italic;
+}
+
+
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+   
+    overflow: hidden;
+}
+#page2 .div{
+    height: 44%;
+    width: 32%;
+    /* background-color: #fff; */
+    position: relative;
+    top: 50%;
+    left: 57%;
+    opacity: 6;
+}
+#page2 .div img{
+    height: 160px;
+    width: 160px;
+    margin-left: 34%;
+}
+#page2 .div h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 5%;
+    color: #fff;
+}
+#page2 .div h1 span{
+    color: yellowgreen;
+    font-style: italic;
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+}
+#page3 .div{
+    height: 44%;
+    width: 35%;
+    /* background-color: #fff; */
+    position: relative;
+    top: 50%;
+    left: 57%;
+    opacity: 6;
+}
+#page3 .div img{
+    height: 160px;
+    width: 160px;
+    margin-left: 34%;
+}
+#page3 .div h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 5%;
+    color: #fff;
+}
+#page3 .div h1 span{
+    color: yellowgreen;
+    font-style: italic;
+}
+#page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+#page4 .div{
+    height: 44%;
+    width: 32%;
+    /* background-color: #fff; */
+    position: relative;
+    top: 50%;
+    left: 57%;
+    opacity: 6;
+}
+#page4 .div img{
+    height: 160px;
+    width: 160px;
+    margin-left: 34%;
+}
+#page4 .div h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 5%;
+    color: #fff;
+}
+#page4 .div h1 span{
+    color: yellowgreen;
+    font-style: italic;
+}
+#page5{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+}
+#page5 .div{
+    height: 44%;
+    width: 35%;
+    /* background-color: #fff; */
+    position: relative;
+    top: 50%;
+    left: 57%;
+    opacity: 6;
+}
+#page5 .div img{
+    height: 160px;
+    width: 160px;
+    margin-left: 34%;
+}
+#page5 .div h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 5%;
+    color: #fff;
+}
+#page5 .div h1 span{
+    color: yellowgreen;
+    font-style: italic;
+}
+#page6{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+#page7{
+    height: 180vh;
+    width: 100vw;
+background: linear-gradient( #053830d1, rgba(0, 0, 0, 0.724));
+    padding-top: 20%;
+    position: relative;
+
+    
+
+}
+#page7 img{
+    height: 90%;
+    width: 60%;
+
+
+}
+#page7 .pra{
+    height: 90%;
+    width: 60%;
+
+    position: absolute;
+    top: 12%;
+    /* background-color: rgba(255, 0, 0, 0.689); */
+    background-color: transparent; 
+     border-top: 150px solid #05322c;
+    border-bottom: 150px solid #01120f;
+  /* background-image: url(https://belgianwhisky.com/img/containers/assets/SCENE_08_REVOLVING_HR_03_0045-copie.png/24d8f6ec1fc9bd1536e31edc27175425.png);
+background-position: center;
+background-size: cover; */
+}
+#page7 #na{
+    height: 100px;
+    width: 58%;
+    margin-left: 2%;
+    /* background-color: red; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 15.9%;
+    border-bottom: 1.3px solid #fff;
+    /* margin-top: 10%; */
+    color: #fff;
+    font-size: 1.5vw;
+}
+#page7 #na h1{
+    font-size: 2.8vw;
+    font-weight: 500;
+    color: #fff;
+    font-family: gilroy;
+}
+#page7 button{
+    padding: 10px 20px;
+    margin: 0 7px;
+    font-size: 1.1vw;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+}
+#page7 button:hover{
+    color: rgb(255, 196, 0);
+    border: 1px solid rgb(255, 217, 0);
+}
+#page7 #bu{
+    color: rgb(255, 204, 0);
+    border: 1px solid rgb(255, 213, 0);
+}
+#page7 #bu:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+#na2{
+    height: 37%;
+    width: 30%;
+    background-color: red;
+    background-image: url(https://www.dekellecigars.be/wp-content/uploads/2023/02/belgian-owl-aged-11-years-belgian-single-malt-whisky-3.jpg);
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    top: 5%;
+    left: 68.9%;
+}
+#page8{
+    height: 100vh;
+    width: 100vw;
+    background-color: #181818;
+    background-image: url(https://belgianwhisky.com/img/containers/assets/develop/MasterCraftsman_v4_s.png/1e65a9ff8758edd171f9fcc0604721f5.webp);
+    background-position: 70% 30%;
+    background-size: cover;
+
+    position: relative;
+}
+#page8 .im{
+    height: 60%;
+    width: 33%;
+    /* background-color: violet; */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    position: relative;
+
+}
+
+#page8 .di{
+    height: 120px;
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 1.4vw;
+    text-align: center;
+    font-family:serif;
+    color: #fff;
+
+
+
+    /* background-color: blanchedalmond; */
+}
+
+#page8 button{
+    font-size: 1.1vw;
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    position: absolute;
+    top: 53%;
+    left: 28.2%;
+    padding: 8px 25px;
+    background-color: transparent;
+
+}
+#page8 button:hover{
+    color: #fff;
+    border-color: #fff;
+} 
+
+
+
+
+#page9{
+    height: 72vh;
+    width: 100vw;
+    /* background-color: rgb(0, 170, 255); */
+    position: relative;
+}
+#page9 .div1{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+    position: relative;
+    top: 10%;
+    left: 10%;
+    color: #fff;
+}
+#page9 .div1 h1{
+    margin-top: 40%;
+    text-align: center;
+    font-family: serif;
+}
+#page9 .div1 h6{
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2.8px;
+    margin-top: 2%;
+}
+#page9 .div2{
+    position: relative;
+    left: 33%;
+    width: 11%;
+    /* background-color: red; */
+    font-size: 1.6vw;
+    top: -23%;
+
+    color: #fff;
+    
+}
+#page9 .div2 h6{
+    font-family: serif;
+    line-height: 31px;
+    transition: all ease 1s;
+}
+#page9 .div2 h6:hover{
+    color: yellowgreen;
+}
+#page9 .div3 {
+    height: 20%;
+    width: 31%;
+    position: absolute;
+    top: 21%;
+left: 54%;
+color: #fff;
+    /* background-color: red; */
+}
+#page9 .div3 h1{
+    font-size: 1.9vw;
+    font-weight: 450;
+    font-family: Electrolize;
+    
+}
+#page9 .div3 p{
+    font-size: 1.25vw;
+margin-top: 3%;
+}
+#page9 .div4{
+    height: 80px;
+    width: 13%;
+    /* background-color: red; */
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    color: #9b9999;
+    gap: 10px;
+}
+#page9 .div4 .l8{
+    height: 35px;
+    width: 35px;
+    /* background-color: blue; */
+    border-radius: 50px;
+    font-size: 0.95vw;
+    color: #949494;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #818080;
+}
+#page9 .div5{
+    position: relative;
+    left: 33%;
+    width: 11%;
+    /* background-color: red; */
+    font-size: 1.6vw;
+    top: -23%;
+
+    color: #8f8e8e;
+    
+}
+#page9 .div5 h6{
+    font-family: serif;
+    line-height: 31px;
+    transition: all ease 1s;
+}
+#page9 .div5 h6:hover{
+    color: #fff;
+}
+#page9 .div6{
+    height: 50px;
+    width: 30%;
+    /* background-color: red; */
+    position: absolute;
+    top: 80%;
+    left: 54%;
+    color: #fff;
+    font-size: 1.3vw;
+    display: flex;
+    align-items: end;
+    gap: 50px;
+
+   
+}
+#page9 input{
+    color: #989595;
+    font-size: 1.1vw;
+    position: absolute;
+    top: 47%;
+    padding: 8px 10px;
+    left: 54%;
+    width: 21%;
+    border-radius: 50px;
+    border: 1px solid #818080;
+    background-color: transparent;
+}
+#page9 button{
+    color: #fff;
+    font-size: 1.1vw;
+    position: absolute;
+    background-color: transparent;
+    top: 47%;
+    left: 76%;
+    padding: 6px 23px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+
+}
+#page9 button:hover{
+    color: yellowgreen;
+    border-color: yellowgreen;
+}
+#page9 .div6 h5{
+    font-size: 1.32vw;
+    font-weight: 540;
+
+}
+#page9 .div6 h5:hover{
+    color: yellowgreen;
+}
+
+

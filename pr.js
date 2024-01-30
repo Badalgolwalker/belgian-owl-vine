@@ -1,0 +1,1 @@
+var parallax = new Parallax('.parallax-container');
